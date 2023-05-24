@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_java.mk
+    $(LOCAL_DIR)/twrp_java.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_java-user \
-    omni_java-userdebug \
-    omni_java-eng
+    twrp_java-user \
+    twrp_java-userdebug \
+    twrp_java-eng

@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/motorola/java/device.mk)
 
 PRODUCT_DEVICE := java
-PRODUCT_NAME := omni_java
+PRODUCT_NAME := twrp_java
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(20)
 PRODUCT_MANUFACTURER := motorola
