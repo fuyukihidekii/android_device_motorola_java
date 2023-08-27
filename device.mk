@@ -33,6 +33,15 @@ PRODUCT_PACKAGES += \
     libz \
     libcutils
 
+# FastbootD
+PRODUCT_PACKAGES += \
+    fastbootd
+
+# Fastboot HAL
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.1-impl-mock \
+    android.hardware.fastboot@1.1-impl-mock.recovery
+
 # A/B Updater
 PRODUCT_PACKAGES += \
     otapreopt_script \
