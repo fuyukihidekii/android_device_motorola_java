@@ -26,12 +26,9 @@ TARGET_SCREEN_DENSITY := 280
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service \
-    bootctrl.ums512
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.ums512 \
+    android.hardware.boot@1.2-impl \
+    android.hardware.boot@1.2-impl.recovery \
+    android.hardware.boot@1.2-service \
     libgptutils \
     libz \
     libcutils
